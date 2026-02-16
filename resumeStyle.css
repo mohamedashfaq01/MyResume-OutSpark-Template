@@ -1,0 +1,73 @@
+#crisp-white-rock .project .item {
+  display: block;
+}
+#crisp-white-rock .project .item:not(:last-child) {
+  margin-bottom: 10px;
+}
+#crisp-white-rock .career-timeline-content {
+  margin-bottom: 6px;
+  position: relative;
+}
+#crisp-white-rock .career-timeline-content:last-child {
+  margin-bottom: 0;
+}
+
+#crisp-white-rock .career-timeline-set {
+  display: flex;
+  align-items: center;
+}
+#crisp-white-rock .career-timeline-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#crisp-white-rock .career-timeline-left::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-color: #308ac8;
+}
+
+#crisp-white-rock .career-sidebar {
+  position: relative;
+}
+#crisp-white-rock .career-timeline-content::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  border-left: 2px dashed #308ac8;
+}
+
+#crisp-white-rock .career-timeline-right {
+  width: 65%;
+  margin-left: 20px;
+}
+#crisp-white-rock .career-date {
+  background-color: #308ac8;
+  padding: 5px;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-wrap: nowrap;
+  width: 135px;
+  margin-left: 30px;
+}
+#crisp-white-rock .career-timeline-right h6{
+  font-size: 14px;
+  margin: 0;
+}
+#crisp-white-rock .career-timeline-right p {
+  font-size: 11px;
+  color: #5c5c5c;
+}
+
